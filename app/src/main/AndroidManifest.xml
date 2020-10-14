@@ -9,6 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AddDishDietaryActivity"></activity>
+        <activity android:name=".DietaryActivity" />
+        <activity android:name=".SOSActivity" />
+        <activity android:name=".AddEntryDiaryActivity" />
+        <activity android:name=".DiaryActivity" />
+        <activity android:name=".AddPillsActivity" />
+        <activity android:name=".PillsActivity" />
+        <activity android:name=".AddCalendarActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".PersonActivity" />
+        <activity android:name=".AddPersonActiivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".LoginUserActivity" />
+        <activity android:name=".RegisterUserActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
